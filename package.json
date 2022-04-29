@@ -1,0 +1,11 @@
+{
+  "name": "web3-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AnthonyMadia/web3-frontend.git",
+  "author": "Anthony Madia <aamadia24@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^17.0.0"
+  }
+}

@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     Hi
-    <button onclick="connect()">
+    <button id="connectButton" onclick="bundle.connect()">
         Connect
     </button>
-
-
-    <script>
-        async function connect() {
-            if (typeof window.ethereum !== "undefined") {
-                await window.ethereum.request({method: "eth_requestAccounts"})
-            }
-        }
+    <button onclick="bundle.store()">Store77</button>
+    <button onclick="bundle.read()">READ</button>
+    <script src="./dist/bundle.js" type="text/javascript">
     </script>
 </body>
 </html>
